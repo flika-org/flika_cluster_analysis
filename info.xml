@@ -1,0 +1,26 @@
+<plugin name='Cluster Analysis'>
+  <directory>
+    cluster_analysis
+  </directory>
+
+  <version>
+    2017.08.22
+  </version>
+
+  <author>
+    Kevin Tarhan, Brett Settle
+  </author>
+
+  <url>
+    https://github.com/flika-org/cluster_analysis/archive/master.zip
+  </url>
+
+  <dependencies>
+    <dependency name='Plotly'></dependency>
+  </dependencies>
+
+  <menu_layout>
+    <action location='clusters' function='ClusterAnalysis.gui'>Cluster Analysis</action>
+  </menu_layout>
+
+</plugin>
