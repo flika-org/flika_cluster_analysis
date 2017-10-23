@@ -1,7 +1,9 @@
 import flika
 import sys
 import numpy as np
-sys.path.append('C:/Users/Kevin/.FLIKA/plugins/cluster_analysis')
+import os
+dir_path = os.path.dirname(os.path.realpath(__file__))
+sys.path.append(dir_path)
 from DBScan.Main import *
 
 flika.version = flika.__version__
