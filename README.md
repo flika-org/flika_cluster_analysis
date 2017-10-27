@@ -1,4 +1,4 @@
 # flika_cluster_analysis_plugin
 
-#Installation
+### Installation ###
 Download this repository into your ~/.FLIKA/plugins directory and unzip, then launch flika.
